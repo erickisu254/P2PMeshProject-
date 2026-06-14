@@ -1,0 +1,7 @@
+FROM node:20-alpine
+WORKDIR /AppDirectory
+COPY Package.json ./package.json
+RUN npm install
+COPY SignalingBroker.js .
+EXPOSE 8080
+CMD ["node", "SignalingBroker.js"]

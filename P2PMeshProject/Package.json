@@ -1,0 +1,6 @@
+{
+  "name": "p2p-signaling-broker",
+  "version": "1.0.0",
+  "main": "SignalingBroker.js",
+  "dependencies": { "ws": "^8.16.0" }
+}

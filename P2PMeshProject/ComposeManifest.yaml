@@ -1,0 +1,14 @@
+services:
+  MeshBrokerService:
+    image: p2pmeshproject-meshbrokerservice
+    build: 
+      context: .
+      dockerfile: DockerFile
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+    networks:
+      - OverlayNetwork
+networks:
+  OverlayNetwork:
+    driver: bridge
