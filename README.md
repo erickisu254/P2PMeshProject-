@@ -1,4 +1,3 @@
-cat << 'EOF' > ReadMe.md
 # P2PMeshProject
 
 A parasitic WebRTC signaling broker and peer-to-peer mesh network. Designed to bypass traditional HTTP routing, centralized CDNs, and the financial ruin associated with scaling live broadcast infrastructure. 
